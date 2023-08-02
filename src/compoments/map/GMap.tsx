@@ -98,7 +98,7 @@ const GMap = (props: any) => {
     ]
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: 'AIzaSyCpfiYTzxGN7okSdAFafzxDiPPUtn_3BFk',
+        googleMapsApiKey: 'GOOGLE_MAP_API_KEY',
     })
 
     return isLoaded ? (
